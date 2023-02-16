@@ -21,6 +21,9 @@ func register(r *server.Hertz) {
 	r.GET("/douyin/comment/list", handler.CommentList)
 	r.POST("/douyin/favorite/action/", handler.Favorite)
 
+<<<<<<< HEAD
 	r.GET("/douyin/publish/list/", handler.GetUserVideo)
 	r.POST("/douyin/publish/action/", handler.PostUserVideo)
+=======
+>>>>>>> 2bb4450e1ea238fa6bab7b3bbf098c30b1fd617d
 }

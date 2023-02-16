@@ -24,6 +24,7 @@ const (
 const (
 	RegisterSueecssMsg = "register success"
 )
+<<<<<<< HEAD
 
 
 const (
@@ -55,3 +56,5 @@ const (
 	GetUserVideoSuccessMsg = "get user video success"
     GetUserVideoFailedMsg="get user video failed"
 )
+=======
+>>>>>>> 2bb4450e1ea238fa6bab7b3bbf098c30b1fd617d

@@ -10,6 +10,12 @@ import (
 
 // GetTokenByName get user's token from redis
 func GetTokenByName(ctx context.Context, username string) (string, error) {
+<<<<<<< HEAD
+=======
+	if rdb == nil {
+		initRedis()
+	}
+>>>>>>> 2bb4450e1ea238fa6bab7b3bbf098c30b1fd617d
 	key := "token"
 	res, err := rdb.HGet(ctx, key, username).Result()
 	if err == redis.Nil {

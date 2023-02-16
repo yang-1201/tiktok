@@ -18,7 +18,10 @@ func NewDB() *gorm.DB {
 
 func InitDB() {
 	dsn := "MiniTikTok:root@tcp(49.232.155.203:3306)/minitiktok?charset=utf8&parseTime=True&loc=Local&timeout=10s"
+<<<<<<< HEAD
 	//dsn := "root:yy6364650@tcp(localhost:3306)/minitiktok?charset=utf8&parseTime=True&loc=Local&timeout=10s"
+=======
+>>>>>>> 2bb4450e1ea238fa6bab7b3bbf098c30b1fd617d
 	InitDBWithDSN(dsn)
 }
 

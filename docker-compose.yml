@@ -11,7 +11,19 @@ services:
     volumes:
       - "./common/dal/mysql/sql/:/sql/"
       - "./common/dal/mysql/sql/init:/docker-entrypoint-initdb.d/"
+<<<<<<< HEAD
       
+=======
+  redis:
+    image: redis
+    container_name: redis_dev
+    ports:
+      - 6379:6379
+    volumes:
+      - "./common/dal/rediss/redis:/redis/"
+      - "./common/dal/rediss/conf/redis.conf:/etc/redis/redis.conf"
+
+>>>>>>> 2bb4450e1ea238fa6bab7b3bbf098c30b1fd617d
   build:
     image: golang
     container_name: tiktok

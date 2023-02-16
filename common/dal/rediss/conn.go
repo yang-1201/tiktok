@@ -21,6 +21,10 @@ func initRedis() {
 		Password: "",
 		DB:       0,
 	})
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2bb4450e1ea238fa6bab7b3bbf098c30b1fd617d
 	// used for test
 	//rdb = redis.NewClient(&redis.Options{
 	//	Addr:     "localhost:6379",
